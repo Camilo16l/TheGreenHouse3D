@@ -50,6 +50,7 @@
      <Compile Include="Assets/Scripts/mouse.cs" />
      <Compile Include="Assets/Scripts/playerMove.cs" />
      <Compile Include="Assets/Scripts/sprites.cs" />
+     <Compile Include="Assets/Scripts/llave.cs" />
      <Compile Include="Assets/Scripts/personaje.cs" />
      <Compile Include="Assets/Scripts/inventarioManager.cs" />
      <None Include="Assets/Materiales/Brillo.shader" />

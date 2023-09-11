@@ -12,7 +12,7 @@ public class cubeClic : MonoBehaviour
     public Vector3 spriteSpawnPosition;
     private SpriteRenderer spriteRenderer;
     private GameObject spawnedSprite;
-    // public bool recogido = false;
+
     public event System.Action<bool> OnRecogidoChanged;
     private bool _recogido = false;
     public bool recogido
@@ -26,7 +26,7 @@ public class cubeClic : MonoBehaviour
         }
     }
 
-    private void Star()
+    private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
     }

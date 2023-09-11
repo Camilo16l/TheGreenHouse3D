@@ -5,7 +5,8 @@ using UnityEngine;
 public class personaje : MonoBehaviour
 {
 public GameObject personajeObj;
-public Animator animator;
+// public Animator animator;
+public GameObject model;
 public float targetRotationY = 0f; // Almacena la última rotación
 public bool moving = false;
     void Start()
@@ -45,7 +46,7 @@ public bool moving = false;
             }
 
             moving = isMoving;
-            animator.SetBool("movimiento", isMoving);
+            // animator.SetBool("movimiento", isMoving);
             
             Vector3 newRotation = transform.eulerAngles;
             newRotation.y = targetRotationY;

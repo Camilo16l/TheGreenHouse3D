@@ -349,6 +349,7 @@
 "Assets/Scripts/cubeClic.cs"
 "Assets/Scripts/cubeMovement.cs"
 "Assets/Scripts/inventarioManager.cs"
+"Assets/Scripts/llave.cs"
 "Assets/Scripts/mouse.cs"
 "Assets/Scripts/nombreObjeto.cs"
 "Assets/Scripts/personaje.cs"

@@ -59,8 +59,8 @@
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/treeview/ItemGui/ISelectable.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/treeview/Manipulator.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Signals/SignalManager.cs" />
-     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/treeview/IPropertyKeyDataSource.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Manipulators/Cursors/TimelineCursors.cs" />
+     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/treeview/IPropertyKeyDataSource.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Window/Modes/TimelineMode.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/inspectors/BuiltInCurvePresets.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Window/TimelineWindow_Manipulators.cs" />
@@ -133,9 +133,9 @@
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Localization/Localization.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Utilities/Range.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Manipulators/Move/MoveItemModeRipple.cs" />
-     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Manipulators/Sequence/RectangleSelect.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/UnityEditorInternals.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Attributes/TimelineShortcutAttribute.cs" />
+     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Manipulators/Sequence/RectangleSelect.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Window/Modes/TimeReferenceMode.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Recording/TimelineRecording.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/treeview/TrackGui/InlineCurveEditor.cs" />
@@ -163,8 +163,8 @@
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/treeview/ItemGui/TimelineMarkerClusterGUI.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Actions/MarkerAction.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Utilities/Clipboard.cs" />
-     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Utilities/TypeUtility.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Utilities/TimelineKeyboardNavigation.cs" />
+     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Utilities/TypeUtility.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/treeview/TimelineTreeView.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/treeview/Drawers/ClipDrawer.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Utilities/MarkerModifier.cs" />
@@ -308,10 +308,10 @@
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Window/TimelineWindow_TimeCursor.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Items/ItemsUtils.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/inspectors/TimelinePreferences.cs" />
-     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Actions/IAction.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/treeview/ItemGui/TimelineMarkerGUI.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Actions/TimelineAction.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Window/TimelineWindow_TimeArea.cs" />
+     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Actions/IAction.cs" />
      <None Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/Unity.Timeline.Editor.asmdef" />
      <None Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/StyleSheets/res/Timeline_LightSkin.txt" />
      <None Include="Library/PackageCache/com.unity.timeline@1.7.5/Editor/StyleSheets/Extensions/dark.uss" />

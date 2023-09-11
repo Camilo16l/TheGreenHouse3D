@@ -76,9 +76,9 @@
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Lighting/ProbeVolume/ProbeVolumeAsset.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Utilities/BitArray.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/XR/XRLayout.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Lighting/ProbeVolume/ProbeReferenceVolume.Debug.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Common/DynamicResolutionHandler.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/RenderGraph/RenderGraphPass.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Lighting/ProbeVolume/ProbeReferenceVolume.Debug.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/XR/XRMirrorView.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Common/CommonStructs.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Utilities/DelegateUtility.cs" />
@@ -91,12 +91,12 @@
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Utilities/TextureCurve.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/RenderPipeline/IVolumetricCloud.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/XR/XRSystem.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/RenderGraph/RenderGraph.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/LookDev/IDataProvider.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Debugging/DebugUI.Panel.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/RenderGraph/RenderGraph.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Camera/CameraSwitcher.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Lighting/ProbeVolume/ProbeReferenceVolumeProfile.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerFoldout.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Lighting/ProbeVolume/ProbeReferenceVolumeProfile.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Textures/Texture2DAtlasDynamic.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Debugging/DebugFrameTiming.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Utilities/ColorUtils.cs" />

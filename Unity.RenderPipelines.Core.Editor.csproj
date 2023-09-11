@@ -178,10 +178,10 @@
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Editor/Lighting/LightAnchorHandles.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Editor/EditorPrefBool.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Editor/PostProcessing/LensFlareEditor.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Editor/Volume/Drawers/Vector4ParameterDrawer.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Editor/Camera/CameraUI.Environment.Skin.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Editor/Camera/CameraUI.Rendering.Drawers.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Editor/Lighting/IESObject.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Editor/Volume/Drawers/Vector4ParameterDrawer.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Editor/Lighting/ProbeVolume/ProbeReferenceVolumeProfileEditor.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Editor/Volume/Drawers/ColorParameterDrawer.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Editor/Camera/ISerializedCamera.cs" />

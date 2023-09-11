@@ -8,6 +8,7 @@ public class sprites : MonoBehaviour
     public Image imageToChange;
     public Sprite spriteToShow;
     public cubeClic cubeClickScript;
+    public bool activated = false;
     void Start()
     {
         if (cubeClickScript == null)
@@ -32,6 +33,7 @@ public class sprites : MonoBehaviour
         if (newRecogidoValue && spriteToShow != null)
         {
             imageToChange.sprite = spriteToShow;
+            activated = true;
         }
     }
 
