@@ -95,8 +95,8 @@
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Debugging/DebugUI.Panel.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/RenderGraph/RenderGraph.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Camera/CameraSwitcher.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerFoldout.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Lighting/ProbeVolume/ProbeReferenceVolumeProfile.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerFoldout.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Textures/Texture2DAtlasDynamic.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Debugging/DebugFrameTiming.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.8/Runtime/Utilities/ColorUtils.cs" />
@@ -488,6 +488,27 @@
     </Reference>
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
         <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+        <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+        <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+        <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+        <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+        <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+        <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.GradleProject">
+        <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - objeto
   - item
+  - caminable
+  - noCaminable
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -16,8 +19,8 @@ TagManager:
   - obstaculo
   - Mouse
   - objeto
-  - 
-  - 
+  - caminable
+  - noCaminable
   - 
   - 
   - 

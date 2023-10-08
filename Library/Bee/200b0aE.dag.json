@@ -289,7 +289,14 @@
         281,
         282,
         283,
-        284
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -312,7 +319,7 @@
       "DisplayName": "Writing UnityEngine.TestRunner.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 259,
-      "PayloadLength": 40317,
+      "PayloadLength": 40915,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -324,7 +331,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.rsp2",
       "DisplayName": "Writing UnityEngine.TestRunner.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 40669,
+      "PayloadOffset": 41267,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
@@ -338,6 +345,13 @@
       "DisplayName": "Csc UnityEngine.TestRunner",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -672,7 +686,7 @@
         1,
         2,
         3,
-        92
+        99
       ],
       "ToUseDependencies": [
         1,
@@ -692,15 +706,15 @@
       "DebugActionIndex": 4
     },
     {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
-      "DisplayName": "MovedFromExtractor UnityEditor.Graphs.dll_751D4997512E220E",
-      "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm\" \"/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll\"",
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+      "DisplayName": "MovedFromExtractor Unity.Android.Gradle.dll_6FDA676131A80EA4",
+      "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm\" \"/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll\"",
       "Inputs": [
-        "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
         "/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm"
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm"
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
@@ -797,33 +811,33 @@
         88,
         89,
         90,
-        103,
-        104,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        110,
         111,
-        112,
+        118,
         119,
-        168,
-        169,
-        194,
-        195,
+        126,
+        175,
+        176,
+        201,
         202,
-        203,
-        204,
-        223,
+        209,
+        210,
+        211,
         230,
-        231,
-        232,
-        233,
-        234,
-        235,
-        236,
+        237,
+        238,
         239,
         240,
         241,
         242,
         243,
-        244,
-        245,
         246,
         247,
         248,
@@ -860,10 +874,122 @@
         279,
         280,
         281,
-        282
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 6
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+      "DisplayName": "MovedFromExtractor Unity.Android.GradleProject.dll_9F99EAE9CD20B751",
+      "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm\" \"/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll\"",
+      "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 7
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+      "DisplayName": "MovedFromExtractor Unity.Android.Types.dll_6D06F945A98A95D8",
+      "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm\" \"/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll\"",
+      "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 8
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.Android.Extensions.dll_986B1A4000FB4964",
+      "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm\" \"/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll\"",
+      "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 9
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1",
+      "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm\" \"/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll\"",
+      "Inputs": [
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 10
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.iOS.Extensions.dll_606A5993520BAED4",
+      "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm\" \"/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll\"",
+      "Inputs": [
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 11
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B",
+      "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm\" \"/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll\"",
+      "Inputs": [
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
+        "/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 12
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
+      "DisplayName": "MovedFromExtractor UnityEditor.Graphs.dll_751D4997512E220E",
+      "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm\" \"/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll\"",
+      "Inputs": [
+        "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
+        "/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
@@ -878,7 +1004,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 7
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -893,7 +1019,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 8
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.DiagnosticsModule.dll_D0682932EA88A5B3.mvfrm",
@@ -908,7 +1034,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 9
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.dll_DED654ECFA116EF9.mvfrm",
@@ -923,7 +1049,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 10
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.EditorToolbarModule.dll_D096BC35BDBE2FD5.mvfrm",
@@ -938,7 +1064,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 11
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.GraphViewModule.dll_F408DD319AB9912A.mvfrm",
@@ -953,7 +1079,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 12
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.PresetsUIModule.dll_AF6F16139D11E92F.mvfrm",
@@ -968,7 +1094,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.QuickSearchModule.dll_5B77AA40435FA20C.mvfrm",
@@ -983,7 +1109,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SceneTemplateModule.dll_F4362CF3BCAADA0D.mvfrm",
@@ -998,7 +1124,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SceneViewModule.dll_32B8C0398FDC5E38.mvfrm",
@@ -1013,7 +1139,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreFontEngineModule.dll_F0011034FBB23DDA.mvfrm",
@@ -1028,7 +1154,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreTextEngineModule.dll_37E946A68B35F6F8.mvfrm",
@@ -1043,7 +1169,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIBuilderModule.dll_48918A4E0D720A5E.mvfrm",
@@ -1058,7 +1184,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsModule.dll_32388CF30DC10D98.mvfrm",
@@ -1073,7 +1199,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsSamplesModule.dll_26685BB7E409F555.mvfrm",
@@ -1088,7 +1214,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UnityConnectModule.dll_92B9A7E7348D1092.mvfrm",
@@ -1103,7 +1229,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_26DB988ABD2101AA.mvfrm",
@@ -1118,7 +1244,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_D50159E8C0025EB0.mvfrm",
@@ -1133,7 +1259,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_B08175C656E07C6E.mvfrm",
@@ -1148,7 +1274,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_C28E595A751665D0.mvfrm",
@@ -1163,7 +1289,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_8E741EEC1D1FBD79.mvfrm",
@@ -1178,7 +1304,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_9F60DD31A5C656FE.mvfrm",
@@ -1193,7 +1319,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_2E009E91D409D2C2.mvfrm",
@@ -1208,7 +1334,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_94E8FB8CAE26B1A6.mvfrm",
@@ -1223,7 +1349,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_12561CFCE614E358.mvfrm",
@@ -1238,7 +1364,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_430BAE0865B0B229.mvfrm",
@@ -1253,7 +1379,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_387736727448FEEB.mvfrm",
@@ -1268,7 +1394,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_312F17AF328FDF07.mvfrm",
@@ -1283,7 +1409,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_AB8AB1DBBEDA9CFF.mvfrm",
@@ -1298,7 +1424,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.DirectorModule.dll_34E4C32D723836E4.mvfrm",
@@ -1313,7 +1439,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.dll_117A9BC55884FBDE.mvfrm",
@@ -1328,7 +1454,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.DSPGraphModule.dll_3A362496E4990805.mvfrm",
@@ -1343,7 +1469,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GameCenterModule.dll_DACEBFE11D216D5F.mvfrm",
@@ -1358,7 +1484,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GIModule.dll_6D3DA2F65BB146CA.mvfrm",
@@ -1373,7 +1499,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GridModule.dll_0EA0339D4AE474FE.mvfrm",
@@ -1388,7 +1514,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_43D7176050498152.mvfrm",
@@ -1403,7 +1529,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ImageConversionModule.dll_AEFDABB8E7D56A1D.mvfrm",
@@ -1418,7 +1544,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_66603DF89A3B66A3.mvfrm",
@@ -1433,7 +1559,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputLegacyModule.dll_30A5F8503DB80CEF.mvfrm",
@@ -1448,7 +1574,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputModule.dll_947666424A41F766.mvfrm",
@@ -1463,7 +1589,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.JSONSerializeModule.dll_86F321C6BC5C6234.mvfrm",
@@ -1478,7 +1604,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.LocalizationModule.dll_50A2E74F7D90D651.mvfrm",
@@ -1493,7 +1619,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ParticleSystemModule.dll_FE9CFB282CEC288D.mvfrm",
@@ -1508,7 +1634,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PerformanceReportingModule.dll_75B0935CABAA3AC6.mvfrm",
@@ -1523,7 +1649,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Physics2DModule.dll_0F34494B16135D65.mvfrm",
@@ -1538,7 +1664,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PhysicsModule.dll_734E498C586E49D3.mvfrm",
@@ -1553,7 +1679,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ProfilerModule.dll_672AFC640B91BDF1.mvfrm",
@@ -1568,7 +1694,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PropertiesModule.dll_0809FF1F900CD19B.mvfrm",
@@ -1583,7 +1709,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_B81B84621D47182E.mvfrm",
@@ -1598,7 +1724,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ScreenCaptureModule.dll_A0DACF4BD0C88E96.mvfrm",
@@ -1613,7 +1739,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SharedInternalsModule.dll_330EEA8E5F03656D.mvfrm",
@@ -1628,7 +1754,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteMaskModule.dll_C3FB32713E9102D9.mvfrm",
@@ -1643,7 +1769,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteShapeModule.dll_B8C20A8C5B688F08.mvfrm",
@@ -1658,7 +1784,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.StreamingModule.dll_772346AAC49E1D0E.mvfrm",
@@ -1673,7 +1799,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SubstanceModule.dll_53CE5AF40FF11B1C.mvfrm",
@@ -1688,7 +1814,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SubsystemsModule.dll_2EA898D30CD8EAEC.mvfrm",
@@ -1703,7 +1829,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_8D94C4FB2E2C92C1.mvfrm",
@@ -1718,7 +1844,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainPhysicsModule.dll_FF17A3FB462F231A.mvfrm",
@@ -1733,7 +1859,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreFontEngineModule.dll_6E608B880EAFFCA5.mvfrm",
@@ -1748,7 +1874,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreTextEngineModule.dll_B648C1F99E33B5C3.mvfrm",
@@ -1763,7 +1889,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextRenderingModule.dll_CA1A415688000E8B.mvfrm",
@@ -1778,7 +1904,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TilemapModule.dll_2C912C7C45E973CA.mvfrm",
@@ -1793,7 +1919,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TLSModule.dll_BDBEFCD45ED16DE7.mvfrm",
@@ -1808,7 +1934,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsModule.dll_32E6FA3B100526E3.mvfrm",
@@ -1823,7 +1949,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIModule.dll_D074F8161C49645C.mvfrm",
@@ -1838,7 +1964,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UmbraModule.dll_A8D54AAA61307E35.mvfrm",
@@ -1853,7 +1979,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsCommonModule.dll_10EF50A0C592D924.mvfrm",
@@ -1868,7 +1994,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsModule.dll_1E3C6BF1D9137A89.mvfrm",
@@ -1883,7 +2009,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityConnectModule.dll_80192BF62F15113D.mvfrm",
@@ -1898,7 +2024,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityCurlModule.dll_F5AAFA8BE52A57BD.mvfrm",
@@ -1913,7 +2039,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityTestProtocolModule.dll_E22B11AA3E054AAB.mvfrm",
@@ -1928,7 +2054,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAssetBundleModule.dll_A372BB6ABBF2DC1A.mvfrm",
@@ -1943,7 +2069,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAudioModule.dll_EDACE73B3215055E.mvfrm",
@@ -1958,7 +2084,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestModule.dll_C09CB362F2CA049C.mvfrm",
@@ -1973,7 +2099,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestTextureModule.dll_377F882828D512F3.mvfrm",
@@ -1988,7 +2114,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestWWWModule.dll_810B07558DF3722F.mvfrm",
@@ -2003,7 +2129,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_ACA7BCACEC62067F.mvfrm",
@@ -2018,7 +2144,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_3E9D9543353ED754.mvfrm",
@@ -2033,7 +2159,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_530A22FC969BEE67.mvfrm",
@@ -2048,7 +2174,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_AFFA25405B5816E5.mvfrm",
@@ -2063,7 +2189,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_23471E9BBE03E9D4.mvfrm",
@@ -2078,7 +2204,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_A77DF2D7C3C65D70.mvfrm",
@@ -2093,7 +2219,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_5605E1A0473E3732.mvfrm",
@@ -2108,7 +2234,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.OSXStandalone.Extensions.dll_072CE0D6B4B94B2F.mvfrm",
@@ -2123,26 +2249,33 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.TestRunner.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 40845,
-      "PayloadLength": 7267,
+      "PayloadOffset": 41443,
+      "PayloadLength": 7853,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.dll.mvfrm",
       "DisplayName": "MovedFromExtractorCombine UnityEngine.TestRunner.dll",
       "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.dll.mvfrm\" \"@Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.dll.mvfrm.rsp\"",
       "Inputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -2320,56 +2453,70 @@
         88,
         89,
         90,
-        91
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEngine.UI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 48216,
+      "PayloadOffset": 49400,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.rsp",
       "DisplayName": "Writing UnityEngine.UI.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 48361,
-      "PayloadLength": 33885,
+      "PayloadOffset": 49545,
+      "PayloadLength": 34483,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.rsp"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.rsp2",
       "DisplayName": "Writing UnityEngine.UI.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 82331,
+      "PayloadOffset": 84113,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.rsp2"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.dll (+2 others)",
       "DisplayName": "Csc UnityEngine.UI",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -2673,14 +2820,14 @@
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
       ],
       "ToBuildDependencies": [
-        93,
-        94,
-        95,
-        98
+        100,
+        101,
+        102,
+        105
       ],
       "ToUseDependencies": [
-        93,
-        95
+        100,
+        102
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.rsp"
@@ -2693,26 +2840,33 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 96
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.UI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 82499,
-      "PayloadLength": 7267,
+      "PayloadOffset": 84281,
+      "PayloadLength": 7853,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.dll.mvfrm",
       "DisplayName": "MovedFromExtractorCombine UnityEngine.UI.dll",
       "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.dll.mvfrm\" \"@Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.dll.mvfrm.rsp\"",
       "Inputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -2890,56 +3044,70 @@
         88,
         89,
         90,
-        97
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        104
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEditor.TestRunner.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 89878,
+      "PayloadOffset": 92246,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.rsp",
       "DisplayName": "Writing UnityEditor.TestRunner.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 90031,
-      "PayloadLength": 46300,
+      "PayloadOffset": 92399,
+      "PayloadLength": 46898,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.rsp"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.rsp2",
       "DisplayName": "Writing UnityEditor.TestRunner.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 136424,
+      "PayloadOffset": 139390,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.rsp2"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.dll (+2 others)",
       "DisplayName": "Csc UnityEditor.TestRunner",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -3327,14 +3495,14 @@
       ],
       "ToBuildDependencies": [
         4,
-        99,
-        100,
-        101,
-        106
+        106,
+        107,
+        108,
+        113
       ],
       "ToUseDependencies": [
-        99,
-        101
+        106,
+        108
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.rsp"
@@ -3347,7 +3515,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 102
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_AA3B5DF2776E59D2.mvfrm",
@@ -3365,7 +3533,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.NVIDIAModule.dll_6F78C66AB0734A53.mvfrm",
@@ -3380,20 +3548,20 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEditor.TestRunner.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 136600,
-      "PayloadLength": 7431,
+      "PayloadOffset": 139566,
+      "PayloadLength": 8017,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.dll.mvfrm",
@@ -3401,6 +3569,13 @@
       "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.dll.mvfrm\" \"@Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.dll.mvfrm.rsp\"",
       "Inputs": [
         "Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_AA3B5DF2776E59D2.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -3579,58 +3754,72 @@
         88,
         89,
         90,
-        103,
-        104,
-        105
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        110,
+        111,
+        112
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEditor.UI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 144135,
+      "PayloadOffset": 147687,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.rsp",
       "DisplayName": "Writing UnityEditor.UI.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 144280,
-      "PayloadLength": 30801,
+      "PayloadOffset": 147832,
+      "PayloadLength": 31399,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.rsp"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.rsp2",
       "DisplayName": "Writing UnityEditor.UI.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 175166,
+      "PayloadOffset": 179316,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.rsp2"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.dll (+2 others)",
       "DisplayName": "Csc UnityEditor.UI",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -3894,16 +4083,16 @@
       ],
       "ToBuildDependencies": [
         4,
-        96,
-        102,
-        107,
-        108,
+        103,
         109,
-        114
+        114,
+        115,
+        116,
+        121
       ],
       "ToUseDependencies": [
-        107,
-        109
+        114,
+        116
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.rsp"
@@ -3916,7 +4105,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 110
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TestRunner.ref.dll_DE1D13444BAAFBE7.mvfrm",
@@ -3930,11 +4119,11 @@
         "Library/Bee/artifacts/mvdfrm/UnityEditor.TestRunner.ref.dll_DE1D13444BAAFBE7.mvfrm"
       ],
       "ToBuildDependencies": [
-        102
+        109
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
@@ -3948,24 +4137,24 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm"
       ],
       "ToBuildDependencies": [
-        96
+        103
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEditor.UI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 175334,
-      "PayloadLength": 7589,
+      "PayloadOffset": 179484,
+      "PayloadLength": 8175,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.dll.mvfrm",
@@ -3975,6 +4164,13 @@
         "Library/Bee/artifacts/mvdfrm/UnityEditor.TestRunner.ref.dll_DE1D13444BAAFBE7.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_AA3B5DF2776E59D2.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -4153,60 +4349,74 @@
         88,
         89,
         90,
-        103,
-        104,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        110,
         111,
-        112,
-        113
+        118,
+        119,
+        120
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.2D.Sprite.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 183035,
+      "PayloadOffset": 187771,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.rsp",
       "DisplayName": "Writing Unity.2D.Sprite.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 183188,
-      "PayloadLength": 31276,
+      "PayloadOffset": 187924,
+      "PayloadLength": 31874,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.rsp"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.rsp2",
       "DisplayName": "Writing Unity.2D.Sprite.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 214557,
+      "PayloadOffset": 219891,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.rsp2"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.dll (+2 others)",
       "DisplayName": "Csc Unity.2D.Sprite.Editor",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -4469,17 +4679,17 @@
       ],
       "ToBuildDependencies": [
         4,
-        96,
-        102,
-        110,
-        115,
-        116,
+        103,
+        109,
         117,
-        121
+        122,
+        123,
+        124,
+        128
       ],
       "ToUseDependencies": [
-        115,
-        117
+        122,
+        124
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.rsp"
@@ -4492,7 +4702,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 118
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
@@ -4506,24 +4716,24 @@
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm"
       ],
       "ToBuildDependencies": [
-        110
+        117
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.2D.Sprite.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 214733,
-      "PayloadLength": 7664,
+      "PayloadOffset": 220067,
+      "PayloadLength": 8250,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.dll.mvfrm",
@@ -4534,6 +4744,13 @@
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_AA3B5DF2776E59D2.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -4712,61 +4929,75 @@
         88,
         89,
         90,
-        103,
-        104,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        110,
         111,
-        112,
+        118,
         119,
-        120
+        126,
+        127
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Runtime.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.RenderPipelines.Core.Runtime.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 222521,
+      "PayloadOffset": 228441,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Runtime.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Runtime.rsp",
       "DisplayName": "Writing Unity.RenderPipelines.Core.Runtime.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 222686,
-      "PayloadLength": 45508,
+      "PayloadOffset": 228606,
+      "PayloadLength": 46106,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Runtime.rsp"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Runtime.rsp2",
       "DisplayName": "Writing Unity.RenderPipelines.Core.Runtime.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 268299,
+      "PayloadOffset": 274817,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Runtime.rsp2"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Runtime.dll (+2 others)",
       "DisplayName": "Csc Unity.RenderPipelines.Core.Runtime",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Runtime.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Runtime.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -5163,16 +5394,16 @@
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Runtime.ref.dll"
       ],
       "ToBuildDependencies": [
-        96,
-        110,
-        122,
-        123,
-        124,
-        127
+        103,
+        117,
+        129,
+        130,
+        131,
+        134
       ],
       "ToUseDependencies": [
-        122,
-        124
+        129,
+        131
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Runtime.rsp"
@@ -5185,20 +5416,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 125
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Runtime.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.RenderPipelines.Core.Runtime.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 268487,
-      "PayloadLength": 7417,
+      "PayloadOffset": 275005,
+      "PayloadLength": 8003,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Runtime.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Runtime.dll.mvfrm",
@@ -5207,6 +5438,13 @@
       "Inputs": [
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -5384,58 +5622,72 @@
         88,
         89,
         90,
-        112,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
         119,
-        126
+        126,
+        133
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.ShaderLibrary.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.RenderPipelines.Core.ShaderLibrary.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 276034,
+      "PayloadOffset": 283138,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.ShaderLibrary.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.ShaderLibrary.rsp",
       "DisplayName": "Writing Unity.RenderPipelines.Core.ShaderLibrary.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 276205,
-      "PayloadLength": 26843,
+      "PayloadOffset": 283309,
+      "PayloadLength": 27441,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.ShaderLibrary.rsp"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.ShaderLibrary.rsp2",
       "DisplayName": "Writing Unity.RenderPipelines.Core.ShaderLibrary.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 303159,
+      "PayloadOffset": 310861,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.ShaderLibrary.rsp2"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.ShaderLibrary.dll (+2 others)",
       "DisplayName": "Csc Unity.RenderPipelines.Core.ShaderLibrary",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.ShaderLibrary.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.ShaderLibrary.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -5656,16 +5908,16 @@
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.ShaderLibrary.ref.dll"
       ],
       "ToBuildDependencies": [
-        96,
-        110,
-        128,
-        129,
-        130,
-        133
+        103,
+        117,
+        135,
+        136,
+        137,
+        140
       ],
       "ToUseDependencies": [
-        128,
-        130
+        135,
+        137
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.ShaderLibrary.rsp"
@@ -5678,20 +5930,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 131
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.ShaderLibrary.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.RenderPipelines.Core.ShaderLibrary.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 303353,
-      "PayloadLength": 7417,
+      "PayloadOffset": 311055,
+      "PayloadLength": 8003,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.ShaderLibrary.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.ShaderLibrary.dll.mvfrm",
@@ -5700,6 +5952,13 @@
       "Inputs": [
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -5877,58 +6136,72 @@
         88,
         89,
         90,
-        112,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
         119,
-        132
+        126,
+        139
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 310912,
+      "PayloadOffset": 319200,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.rsp",
       "DisplayName": "Writing Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 311095,
-      "PayloadLength": 26879,
+      "PayloadOffset": 319383,
+      "PayloadLength": 27477,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.rsp"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.rsp2",
       "DisplayName": "Writing Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 338097,
+      "PayloadOffset": 346983,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.rsp2"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll (+2 others)",
       "DisplayName": "Csc Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -6149,16 +6422,16 @@
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.ref.dll"
       ],
       "ToBuildDependencies": [
-        96,
-        110,
-        134,
-        135,
-        136,
-        139
+        103,
+        117,
+        141,
+        142,
+        143,
+        146
       ],
       "ToUseDependencies": [
-        134,
-        136
+        141,
+        143
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.rsp"
@@ -6171,20 +6444,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 137
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 338303,
-      "PayloadLength": 7417,
+      "PayloadOffset": 347189,
+      "PayloadLength": 8003,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll.mvfrm",
@@ -6193,6 +6466,13 @@
       "Inputs": [
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -6370,58 +6650,72 @@
         88,
         89,
         90,
-        112,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
         119,
-        138
+        126,
+        145
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Searcher.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Searcher.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 345831,
+      "PayloadOffset": 355303,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Searcher.Editor.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Searcher.Editor.rsp",
       "DisplayName": "Writing Unity.Searcher.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 345983,
-      "PayloadLength": 28696,
+      "PayloadOffset": 355455,
+      "PayloadLength": 29294,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Searcher.Editor.rsp"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Searcher.Editor.rsp2",
       "DisplayName": "Writing Unity.Searcher.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 374771,
+      "PayloadOffset": 384841,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Searcher.Editor.rsp2"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Unity.Searcher.Editor.dll (+2 others)",
       "DisplayName": "Csc Unity.Searcher.Editor",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Unity.Searcher.Editor.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Unity.Searcher.Editor.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -6659,17 +6953,17 @@
       ],
       "ToBuildDependencies": [
         4,
-        96,
-        102,
-        110,
-        140,
-        141,
-        142,
-        145
+        103,
+        109,
+        117,
+        147,
+        148,
+        149,
+        152
       ],
       "ToUseDependencies": [
-        140,
-        142
+        147,
+        149
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Searcher.Editor.rsp"
@@ -6682,20 +6976,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 143
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Searcher.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Searcher.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 374946,
-      "PayloadLength": 7664,
+      "PayloadOffset": 385016,
+      "PayloadLength": 8250,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Searcher.Editor.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Unity.Searcher.Editor.dll.mvfrm",
@@ -6706,6 +7000,13 @@
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_AA3B5DF2776E59D2.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -6884,61 +7185,75 @@
         88,
         89,
         90,
-        103,
-        104,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        110,
         111,
-        112,
+        118,
         119,
-        144
+        126,
+        151
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Utilities.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.ShaderGraph.Utilities.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 382727,
+      "PayloadOffset": 393383,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Utilities.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Utilities.rsp",
       "DisplayName": "Writing Unity.ShaderGraph.Utilities.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 382885,
-      "PayloadLength": 28250,
+      "PayloadOffset": 393541,
+      "PayloadLength": 28848,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Utilities.rsp"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Utilities.rsp2",
       "DisplayName": "Writing Unity.ShaderGraph.Utilities.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 411233,
+      "PayloadOffset": 422487,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Utilities.rsp2"
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Utilities.dll (+2 others)",
       "DisplayName": "Csc Unity.ShaderGraph.Utilities",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Utilities.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Utilities.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -7170,17 +7485,17 @@
       ],
       "ToBuildDependencies": [
         4,
-        96,
-        102,
-        110,
-        146,
-        147,
-        148,
-        151
+        103,
+        109,
+        117,
+        153,
+        154,
+        155,
+        158
       ],
       "ToUseDependencies": [
-        146,
-        148
+        153,
+        155
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Utilities.rsp"
@@ -7193,20 +7508,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 149
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Utilities.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.ShaderGraph.Utilities.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 411414,
-      "PayloadLength": 7664,
+      "PayloadOffset": 422668,
+      "PayloadLength": 8250,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Utilities.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Utilities.dll.mvfrm",
@@ -7217,6 +7532,13 @@
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_AA3B5DF2776E59D2.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -7395,61 +7717,75 @@
         88,
         89,
         90,
-        103,
-        104,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        110,
         111,
-        112,
+        118,
         119,
-        150
+        126,
+        157
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Timeline.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 419182,
+      "PayloadOffset": 431022,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.rsp",
       "DisplayName": "Writing Unity.Timeline.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 419327,
-      "PayloadLength": 32922,
+      "PayloadOffset": 431167,
+      "PayloadLength": 33520,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.rsp"
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.rsp2",
       "DisplayName": "Writing Unity.Timeline.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 452334,
+      "PayloadOffset": 464772,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.rsp2"
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.dll (+2 others)",
       "DisplayName": "Csc Unity.Timeline",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -7742,16 +8078,16 @@
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.ref.dll"
       ],
       "ToBuildDependencies": [
-        96,
-        110,
-        152,
-        153,
-        154,
-        157
+        103,
+        117,
+        159,
+        160,
+        161,
+        164
       ],
       "ToUseDependencies": [
-        152,
-        154
+        159,
+        161
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.rsp"
@@ -7764,20 +8100,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 155
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Timeline.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 452502,
-      "PayloadLength": 7417,
+      "PayloadOffset": 464940,
+      "PayloadLength": 8003,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.dll.mvfrm",
@@ -7786,6 +8122,13 @@
       "Inputs": [
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -7963,58 +8306,72 @@
         88,
         89,
         90,
-        112,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
         119,
-        156
+        126,
+        163
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VSCode.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 460028,
+      "PayloadOffset": 473052,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.rsp",
       "DisplayName": "Writing Unity.VSCode.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 460178,
-      "PayloadLength": 28614,
+      "PayloadOffset": 473202,
+      "PayloadLength": 29212,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.rsp"
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.rsp2",
       "DisplayName": "Writing Unity.VSCode.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 488882,
+      "PayloadOffset": 502504,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.rsp2"
       ],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.dll (+2 others)",
       "DisplayName": "Csc Unity.VSCode.Editor",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -8250,17 +8607,17 @@
       ],
       "ToBuildDependencies": [
         4,
-        96,
-        102,
-        110,
-        158,
-        159,
-        160,
-        163
+        103,
+        109,
+        117,
+        165,
+        166,
+        167,
+        170
       ],
       "ToUseDependencies": [
-        158,
-        160
+        165,
+        167
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.rsp"
@@ -8273,20 +8630,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 161
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VSCode.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 489055,
-      "PayloadLength": 7664,
+      "PayloadOffset": 502677,
+      "PayloadLength": 8250,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.dll.mvfrm",
@@ -8297,6 +8654,13 @@
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_AA3B5DF2776E59D2.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -8475,61 +8839,75 @@
         88,
         89,
         90,
-        103,
-        104,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        110,
         111,
-        112,
+        118,
         119,
-        162
+        126,
+        169
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Cinemachine.UnityAdditionalFile.txt",
       "DisplayName": "Writing Cinemachine.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 496820,
+      "PayloadOffset": 511028,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Cinemachine.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Cinemachine.rsp",
       "DisplayName": "Writing Cinemachine.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 496962,
-      "PayloadLength": 34390,
+      "PayloadOffset": 511170,
+      "PayloadLength": 34988,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Cinemachine.rsp"
       ],
-      "DebugActionIndex": 165
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Cinemachine.rsp2",
       "DisplayName": "Writing Cinemachine.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 531434,
+      "PayloadOffset": 546240,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Cinemachine.rsp2"
       ],
-      "DebugActionIndex": 166
+      "DebugActionIndex": 173
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Cinemachine.dll (+2 others)",
       "DisplayName": "Csc Cinemachine",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Cinemachine.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Cinemachine.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -8831,18 +9209,18 @@
         "Library/Bee/artifacts/200b0aE.dag/Cinemachine.ref.dll"
       ],
       "ToBuildDependencies": [
-        96,
-        110,
-        125,
-        155,
-        164,
-        165,
-        166,
-        171
+        103,
+        117,
+        132,
+        162,
+        171,
+        172,
+        173,
+        178
       ],
       "ToUseDependencies": [
-        164,
-        166
+        171,
+        173
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Cinemachine.rsp"
@@ -8855,7 +9233,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 167
+      "DebugActionIndex": 174
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.RenderPipelines.Core.Runtime.ref.dll_AA9CC9DBDD612E3E.mvfrm",
@@ -8869,11 +9247,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.RenderPipelines.Core.Runtime.ref.dll_AA9CC9DBDD612E3E.mvfrm"
       ],
       "ToBuildDependencies": [
-        125
+        132
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 168
+      "DebugActionIndex": 175
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_D292A1F7EB1601C3.mvfrm",
@@ -8887,24 +9265,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_D292A1F7EB1601C3.mvfrm"
       ],
       "ToBuildDependencies": [
-        155
+        162
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 169
+      "DebugActionIndex": 176
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Cinemachine.dll.mvfrm.rsp",
       "DisplayName": "Writing Cinemachine.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 531599,
-      "PayloadLength": 7587,
+      "PayloadOffset": 546405,
+      "PayloadLength": 8173,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Cinemachine.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 170
+      "DebugActionIndex": 177
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Cinemachine.dll.mvfrm",
@@ -8915,6 +9293,13 @@
         "Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_D292A1F7EB1601C3.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -9092,60 +9477,74 @@
         88,
         89,
         90,
-        112,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
         119,
-        168,
-        169,
-        170
+        126,
+        175,
+        176,
+        177
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 171
+      "DebugActionIndex": 178
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.FilmInternalUtilities.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 539303,
+      "PayloadOffset": 554695,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 172
+      "DebugActionIndex": 179
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.rsp",
       "DisplayName": "Writing Unity.FilmInternalUtilities.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 539461,
-      "PayloadLength": 31633,
+      "PayloadOffset": 554853,
+      "PayloadLength": 32231,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.rsp"
       ],
-      "DebugActionIndex": 173
+      "DebugActionIndex": 180
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.rsp2",
       "DisplayName": "Writing Unity.FilmInternalUtilities.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 571192,
+      "PayloadOffset": 587182,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.rsp2"
       ],
-      "DebugActionIndex": 174
+      "DebugActionIndex": 181
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.dll (+2 others)",
       "DisplayName": "Csc Unity.FilmInternalUtilities",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -9407,17 +9806,17 @@
         "Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.ref.dll"
       ],
       "ToBuildDependencies": [
-        96,
-        110,
-        155,
-        172,
-        173,
-        174,
-        177
+        103,
+        117,
+        162,
+        179,
+        180,
+        181,
+        184
       ],
       "ToUseDependencies": [
-        172,
-        174
+        179,
+        181
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.rsp"
@@ -9430,20 +9829,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 175
+      "DebugActionIndex": 182
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.FilmInternalUtilities.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 571373,
-      "PayloadLength": 7492,
+      "PayloadOffset": 587363,
+      "PayloadLength": 8078,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 176
+      "DebugActionIndex": 183
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.dll.mvfrm",
@@ -9453,6 +9852,13 @@
         "Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_D292A1F7EB1601C3.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -9630,59 +10036,73 @@
         88,
         89,
         90,
-        112,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
         119,
-        169,
-        176
+        126,
+        176,
+        183
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 177
+      "DebugActionIndex": 184
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.RenderPipelines.Core.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 578988,
+      "PayloadOffset": 595564,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Editor.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 178
+      "DebugActionIndex": 185
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Editor.rsp",
       "DisplayName": "Writing Unity.RenderPipelines.Core.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 579152,
-      "PayloadLength": 43492,
+      "PayloadOffset": 595728,
+      "PayloadLength": 44090,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Editor.rsp"
       ],
-      "DebugActionIndex": 179
+      "DebugActionIndex": 186
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Editor.rsp2",
       "DisplayName": "Writing Unity.RenderPipelines.Core.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 622748,
+      "PayloadOffset": 639922,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Editor.rsp2"
       ],
-      "DebugActionIndex": 180
+      "DebugActionIndex": 187
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Editor.dll (+2 others)",
       "DisplayName": "Csc Unity.RenderPipelines.Core.Editor",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Editor.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Editor.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -10062,18 +10482,18 @@
       ],
       "ToBuildDependencies": [
         4,
-        96,
-        102,
-        110,
-        125,
-        178,
-        179,
-        180,
-        183
+        103,
+        109,
+        117,
+        132,
+        185,
+        186,
+        187,
+        190
       ],
       "ToUseDependencies": [
-        178,
-        180
+        185,
+        187
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Editor.rsp"
@@ -10086,20 +10506,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 181
+      "DebugActionIndex": 188
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.RenderPipelines.Core.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 622935,
-      "PayloadLength": 7759,
+      "PayloadOffset": 640109,
+      "PayloadLength": 8345,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Editor.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 182
+      "DebugActionIndex": 189
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Editor.dll.mvfrm",
@@ -10111,6 +10531,13 @@
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_AA3B5DF2776E59D2.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -10289,62 +10716,76 @@
         88,
         89,
         90,
-        103,
-        104,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        110,
         111,
-        112,
+        118,
         119,
-        168,
-        182
+        126,
+        175,
+        189
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 183
+      "DebugActionIndex": 190
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Timeline.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 630805,
+      "PayloadOffset": 648565,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 184
+      "DebugActionIndex": 191
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.rsp",
       "DisplayName": "Writing Unity.Timeline.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 630957,
-      "PayloadLength": 51982,
+      "PayloadOffset": 648717,
+      "PayloadLength": 52580,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.rsp"
       ],
-      "DebugActionIndex": 185
+      "DebugActionIndex": 192
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.rsp2",
       "DisplayName": "Writing Unity.Timeline.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 683031,
+      "PayloadOffset": 701389,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.rsp2"
       ],
-      "DebugActionIndex": 186
+      "DebugActionIndex": 193
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.dll (+2 others)",
       "DisplayName": "Csc Unity.Timeline.Editor",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -10845,18 +11286,18 @@
       ],
       "ToBuildDependencies": [
         4,
-        96,
-        102,
-        110,
-        155,
-        184,
-        185,
-        186,
-        189
+        103,
+        109,
+        117,
+        162,
+        191,
+        192,
+        193,
+        196
       ],
       "ToUseDependencies": [
-        184,
-        186
+        191,
+        193
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.rsp"
@@ -10869,20 +11310,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 187
+      "DebugActionIndex": 194
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Timeline.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 683206,
-      "PayloadLength": 7739,
+      "PayloadOffset": 701564,
+      "PayloadLength": 8325,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 188
+      "DebugActionIndex": 195
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.dll.mvfrm",
@@ -10894,6 +11335,13 @@
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_AA3B5DF2776E59D2.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -11072,62 +11520,76 @@
         88,
         89,
         90,
-        103,
-        104,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        110,
         111,
-        112,
+        118,
         119,
-        169,
-        188
+        126,
+        176,
+        195
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 189
+      "DebugActionIndex": 196
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.FilmInternalUtilities.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 691069,
+      "PayloadOffset": 710013,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.Editor.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 190
+      "DebugActionIndex": 197
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.Editor.rsp",
       "DisplayName": "Writing Unity.FilmInternalUtilities.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 691234,
-      "PayloadLength": 31743,
+      "PayloadOffset": 710178,
+      "PayloadLength": 32341,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.Editor.rsp"
       ],
-      "DebugActionIndex": 191
+      "DebugActionIndex": 198
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.Editor.rsp2",
       "DisplayName": "Writing Unity.FilmInternalUtilities.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 723082,
+      "PayloadOffset": 742624,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.Editor.rsp2"
       ],
-      "DebugActionIndex": 192
+      "DebugActionIndex": 199
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.Editor.dll (+2 others)",
       "DisplayName": "Csc Unity.FilmInternalUtilities.Editor",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.Editor.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.Editor.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -11387,20 +11849,20 @@
       ],
       "ToBuildDependencies": [
         4,
-        96,
-        102,
-        110,
-        155,
-        175,
-        187,
-        190,
-        191,
-        192,
-        197
+        103,
+        109,
+        117,
+        162,
+        182,
+        194,
+        197,
+        198,
+        199,
+        204
       ],
       "ToUseDependencies": [
-        190,
-        192
+        197,
+        199
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.Editor.rsp"
@@ -11413,7 +11875,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 193
+      "DebugActionIndex": 200
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.FilmInternalUtilities.ref.dll_65B6266BEC56BDFD.mvfrm",
@@ -11427,11 +11889,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.FilmInternalUtilities.ref.dll_65B6266BEC56BDFD.mvfrm"
       ],
       "ToBuildDependencies": [
-        175
+        182
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 194
+      "DebugActionIndex": 201
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Timeline.Editor.ref.dll_1305DD42619CF31E.mvfrm",
@@ -11445,24 +11907,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.Timeline.Editor.ref.dll_1305DD42619CF31E.mvfrm"
       ],
       "ToBuildDependencies": [
-        187
+        194
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 195
+      "DebugActionIndex": 202
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.FilmInternalUtilities.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 723270,
-      "PayloadLength": 7909,
+      "PayloadOffset": 742812,
+      "PayloadLength": 8495,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.Editor.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 196
+      "DebugActionIndex": 203
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Unity.FilmInternalUtilities.Editor.dll.mvfrm",
@@ -11476,6 +11938,13 @@
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_AA3B5DF2776E59D2.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -11654,64 +12123,78 @@
         88,
         89,
         90,
-        103,
-        104,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        110,
         111,
-        112,
+        118,
         119,
-        169,
-        194,
-        195,
-        196
+        126,
+        176,
+        201,
+        202,
+        203
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 197
+      "DebugActionIndex": 204
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.ShaderGraph.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 731293,
+      "PayloadOffset": 751421,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Editor.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 198
+      "DebugActionIndex": 205
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Editor.rsp",
       "DisplayName": "Writing Unity.ShaderGraph.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 731448,
-      "PayloadLength": 95259,
+      "PayloadOffset": 751576,
+      "PayloadLength": 95857,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Editor.rsp"
       ],
-      "DebugActionIndex": 199
+      "DebugActionIndex": 206
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Editor.rsp2",
       "DisplayName": "Writing Unity.ShaderGraph.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 826802,
+      "PayloadOffset": 847528,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Editor.rsp2"
       ],
-      "DebugActionIndex": 200
+      "DebugActionIndex": 207
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Editor.dll (+2 others)",
       "DisplayName": "Csc Unity.ShaderGraph.Editor",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Editor.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Editor.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -12617,21 +13100,21 @@
       ],
       "ToBuildDependencies": [
         4,
-        96,
-        102,
-        110,
-        125,
-        143,
-        149,
-        181,
-        198,
-        199,
-        200,
-        206
+        103,
+        109,
+        117,
+        132,
+        150,
+        156,
+        188,
+        205,
+        206,
+        207,
+        213
       ],
       "ToUseDependencies": [
-        198,
-        200
+        205,
+        207
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Editor.rsp"
@@ -12644,7 +13127,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 201
+      "DebugActionIndex": 208
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.RenderPipelines.Core.Editor.ref.dll_57B051C6BAF6DF9D.mvfrm",
@@ -12658,11 +13141,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.RenderPipelines.Core.Editor.ref.dll_57B051C6BAF6DF9D.mvfrm"
       ],
       "ToBuildDependencies": [
-        181
+        188
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 202
+      "DebugActionIndex": 209
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Searcher.Editor.ref.dll_188082AF4C893B1A.mvfrm",
@@ -12676,11 +13159,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.Searcher.Editor.ref.dll_188082AF4C893B1A.mvfrm"
       ],
       "ToBuildDependencies": [
-        143
+        150
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 203
+      "DebugActionIndex": 210
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.ShaderGraph.Utilities.ref.dll_9587680413563429.mvfrm",
@@ -12694,24 +13177,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.ShaderGraph.Utilities.ref.dll_9587680413563429.mvfrm"
       ],
       "ToBuildDependencies": [
-        149
+        156
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 204
+      "DebugActionIndex": 211
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.ShaderGraph.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 826980,
-      "PayloadLength": 8023,
+      "PayloadOffset": 847706,
+      "PayloadLength": 8609,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Editor.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 205
+      "DebugActionIndex": 212
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Editor.dll.mvfrm",
@@ -12726,6 +13209,13 @@
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_AA3B5DF2776E59D2.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -12904,65 +13394,79 @@
         88,
         89,
         90,
-        103,
-        104,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        110,
         111,
-        112,
+        118,
         119,
-        168,
-        202,
-        203,
-        204,
-        205
+        126,
+        175,
+        209,
+        210,
+        211,
+        212
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 206
+      "DebugActionIndex": 213
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Toonshader.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 835109,
+      "PayloadOffset": 856421,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 207
+      "DebugActionIndex": 214
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.rsp",
       "DisplayName": "Writing Unity.Toonshader.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 835256,
-      "PayloadLength": 27573,
+      "PayloadOffset": 856568,
+      "PayloadLength": 28171,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.rsp"
       ],
-      "DebugActionIndex": 208
+      "DebugActionIndex": 215
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.rsp2",
       "DisplayName": "Writing Unity.Toonshader.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 862916,
+      "PayloadOffset": 884826,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.rsp2"
       ],
-      "DebugActionIndex": 209
+      "DebugActionIndex": 216
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.dll (+2 others)",
       "DisplayName": "Csc Unity.Toonshader",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -13192,18 +13696,18 @@
         "Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.ref.dll"
       ],
       "ToBuildDependencies": [
-        96,
-        110,
-        125,
-        181,
-        207,
-        208,
-        209,
-        212
+        103,
+        117,
+        132,
+        188,
+        214,
+        215,
+        216,
+        219
       ],
       "ToUseDependencies": [
-        207,
-        209
+        214,
+        216
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.rsp"
@@ -13216,20 +13720,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 210
+      "DebugActionIndex": 217
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Toonshader.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 863086,
-      "PayloadLength": 7606,
+      "PayloadOffset": 884996,
+      "PayloadLength": 8192,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 211
+      "DebugActionIndex": 218
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.dll.mvfrm",
@@ -13240,6 +13744,13 @@
         "Library/Bee/artifacts/mvdfrm/Unity.RenderPipelines.Core.Runtime.ref.dll_AA9CC9DBDD612E3E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -13417,60 +13928,74 @@
         88,
         89,
         90,
-        112,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
         119,
-        168,
-        202,
-        211
+        126,
+        175,
+        209,
+        218
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 212
+      "DebugActionIndex": 219
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/com.unity.cinemachine.editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing com.unity.cinemachine.editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 870810,
+      "PayloadOffset": 893306,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/com.unity.cinemachine.editor.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 213
+      "DebugActionIndex": 220
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/com.unity.cinemachine.editor.rsp",
       "DisplayName": "Writing com.unity.cinemachine.editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 870969,
-      "PayloadLength": 35172,
+      "PayloadOffset": 893465,
+      "PayloadLength": 35770,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/com.unity.cinemachine.editor.rsp"
       ],
-      "DebugActionIndex": 214
+      "DebugActionIndex": 221
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/com.unity.cinemachine.editor.rsp2",
       "DisplayName": "Writing com.unity.cinemachine.editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 906240,
+      "PayloadOffset": 929334,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/com.unity.cinemachine.editor.rsp2"
       ],
-      "DebugActionIndex": 215
+      "DebugActionIndex": 222
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/com.unity.cinemachine.editor.dll (+2 others)",
       "DisplayName": "Csc com.unity.cinemachine.editor",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/com.unity.cinemachine.editor.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/com.unity.cinemachine.editor.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -13771,22 +14296,22 @@
       ],
       "ToBuildDependencies": [
         4,
-        96,
-        102,
-        110,
-        125,
-        155,
-        167,
-        181,
-        187,
-        213,
-        214,
-        215,
-        218
+        103,
+        109,
+        117,
+        132,
+        162,
+        174,
+        188,
+        194,
+        220,
+        221,
+        222,
+        225
       ],
       "ToUseDependencies": [
-        213,
-        215
+        220,
+        222
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/com.unity.cinemachine.editor.rsp"
@@ -13799,20 +14324,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 216
+      "DebugActionIndex": 223
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/com.unity.cinemachine.editor.dll.mvfrm.rsp",
       "DisplayName": "Writing com.unity.cinemachine.editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 906422,
-      "PayloadLength": 8010,
+      "PayloadOffset": 929516,
+      "PayloadLength": 8596,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/com.unity.cinemachine.editor.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 217
+      "DebugActionIndex": 224
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/com.unity.cinemachine.editor.dll.mvfrm",
@@ -13827,6 +14352,13 @@
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_AA3B5DF2776E59D2.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -14005,65 +14537,79 @@
         88,
         89,
         90,
-        103,
-        104,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        110,
         111,
-        112,
+        118,
         119,
-        168,
-        169,
-        195,
+        126,
+        175,
+        176,
         202,
-        217
+        209,
+        224
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 218
+      "DebugActionIndex": 225
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Toonshader.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 914545,
+      "PayloadOffset": 938225,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.Editor.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 219
+      "DebugActionIndex": 226
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.Editor.rsp",
       "DisplayName": "Writing Unity.Toonshader.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 914699,
-      "PayloadLength": 31460,
+      "PayloadOffset": 938379,
+      "PayloadLength": 32058,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.Editor.rsp"
       ],
-      "DebugActionIndex": 220
+      "DebugActionIndex": 227
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.Editor.rsp2",
       "DisplayName": "Writing Unity.Toonshader.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 946253,
+      "PayloadOffset": 970531,
       "PayloadLength": 74,
       "PayloadDebugContentSnippet": "/pathmap:\"/Users/camilo/Deskto",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.Editor.rsp2"
       ],
-      "DebugActionIndex": 221
+      "DebugActionIndex": 228
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.Editor.dll (+2 others)",
       "DisplayName": "Csc Unity.Toonshader.Editor",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.Editor.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.Editor.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
@@ -14326,21 +14872,21 @@
       ],
       "ToBuildDependencies": [
         4,
-        96,
-        102,
-        110,
-        125,
-        175,
-        181,
-        210,
-        219,
-        220,
-        221,
-        225
+        103,
+        109,
+        117,
+        132,
+        182,
+        188,
+        217,
+        226,
+        227,
+        228,
+        232
       ],
       "ToUseDependencies": [
-        219,
-        221
+        226,
+        228
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.Editor.rsp"
@@ -14353,7 +14899,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 222
+      "DebugActionIndex": 229
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Toonshader.ref.dll_59FC37A563132C31.mvfrm",
@@ -14367,24 +14913,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.Toonshader.ref.dll_59FC37A563132C31.mvfrm"
       ],
       "ToBuildDependencies": [
-        210
+        217
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 223
+      "DebugActionIndex": 230
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Toonshader.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 946430,
-      "PayloadLength": 8018,
+      "PayloadOffset": 970708,
+      "PayloadLength": 8604,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.Editor.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 224
+      "DebugActionIndex": 231
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Unity.Toonshader.Editor.dll.mvfrm",
@@ -14399,6 +14945,13 @@
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_AA3B5DF2776E59D2.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Android.Extensions.dll_986B1A4000FB4964.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.dll_606A5993520BAED4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_751D4997512E220E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
@@ -14577,65 +15130,77 @@
         88,
         89,
         90,
-        103,
-        104,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        110,
         111,
-        112,
+        118,
         119,
-        168,
-        194,
-        202,
-        223,
-        224
+        126,
+        175,
+        201,
+        209,
+        230,
+        231
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 225
+      "DebugActionIndex": 232
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 954553,
+      "PayloadOffset": 979417,
       "PayloadLength": 61,
       "PayloadDebugContentSnippet": "/Users/camilo/Desktop/Programa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 226
+      "DebugActionIndex": 233
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 954699,
-      "PayloadLength": 28054,
+      "PayloadOffset": 979563,
+      "PayloadLength": 28615,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp"
       ],
-      "DebugActionIndex": 227
+      "DebugActionIndex": 234
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 982839,
+      "PayloadOffset": 1008264,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp2"
       ],
-      "DebugActionIndex": 228
+      "DebugActionIndex": 235
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)",
       "DisplayName": "Csc Assembly-CSharp",
       "Action": "\"/Applications/Unity/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp\" \"@Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp2\"",
       "Inputs": [
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll",
+        "/Applications/Unity/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll",
+        "/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll",
         "/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll",
@@ -14860,6 +15425,7 @@
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll",
         "Assets/Scripts/camera.cs",
+        "Assets/Scripts/cameraControl.cs",
         "Assets/Scripts/cameraFollow.cs",
         "Assets/Scripts/clicObject.cs",
         "Assets/Scripts/cubeClic.cs",
@@ -14869,9 +15435,12 @@
         "Assets/Scripts/mouse.cs",
         "Assets/Scripts/nombreObjeto.cs",
         "Assets/Scripts/personaje.cs",
+        "Assets/Scripts/player/movimiento.cs",
         "Assets/Scripts/playerMove.cs",
+        "Assets/Scripts/posicionPlayer.cs",
         "Assets/Scripts/sprites.cs",
         "Assets/Scripts/stateController.cs",
+        "Assets/Scripts/triggers.cs",
         "/Applications/Unity/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "/Applications/Unity/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp"
@@ -14882,32 +15451,32 @@
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.ref.dll"
       ],
       "ToBuildDependencies": [
-        96,
-        110,
-        118,
+        103,
+        117,
         125,
-        131,
-        137,
-        143,
-        155,
-        161,
-        167,
-        175,
-        181,
-        187,
-        193,
-        201,
-        210,
-        216,
-        222,
-        226,
-        227,
-        228,
-        238
+        132,
+        138,
+        144,
+        150,
+        162,
+        168,
+        174,
+        182,
+        188,
+        194,
+        200,
+        208,
+        217,
+        223,
+        229,
+        233,
+        234,
+        235,
+        245
       ],
       "ToUseDependencies": [
-        226,
-        228
+        233,
+        235
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp"
@@ -14919,7 +15488,7 @@
           "Value": "0"
         }
       ],
-      "DebugActionIndex": 229
+      "DebugActionIndex": 236
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.2D.Sprite.Editor.ref.dll_A298F0F0964CDA5C.mvfrm",
@@ -14933,11 +15502,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.2D.Sprite.Editor.ref.dll_A298F0F0964CDA5C.mvfrm"
       ],
       "ToBuildDependencies": [
-        118
+        125
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 230
+      "DebugActionIndex": 237
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.FilmInternalUtilities.Editor.ref.dll_D74A310C74879884.mvfrm",
@@ -14951,11 +15520,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.FilmInternalUtilities.Editor.ref.dll_D74A310C74879884.mvfrm"
       ],
       "ToBuildDependencies": [
-        193
+        200
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 231
+      "DebugActionIndex": 238
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.RenderPipelines.Core.ShaderLibrary.ref.dll_8EDD8A7C38E993CC.mvfrm",
@@ -14969,11 +15538,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.RenderPipelines.Core.ShaderLibrary.ref.dll_8EDD8A7C38E993CC.mvfrm"
       ],
       "ToBuildDependencies": [
-        131
+        138
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 232
+      "DebugActionIndex": 239
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.ref.dll_4AD9CE269414E4CC.mvfrm",
@@ -14987,11 +15556,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.ref.dll_4AD9CE269414E4CC.mvfrm"
       ],
       "ToBuildDependencies": [
-        137
+        144
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 233
+      "DebugActionIndex": 240
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.ShaderGraph.Editor.ref.dll_BF69964832659484.mvfrm",
@@ -15005,11 +15574,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.ShaderGraph.Editor.ref.dll_BF69964832659484.mvfrm"
       ],
       "ToBuildDependencies": [
-        201
+        208
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 234
+      "DebugActionIndex": 241
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Toonshader.Editor.ref.dll_EC605C76E3CC8990.mvfrm",
@@ -15023,11 +15592,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.Toonshader.Editor.ref.dll_EC605C76E3CC8990.mvfrm"
       ],
       "ToBuildDependencies": [
-        222
+        229
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 235
+      "DebugActionIndex": 242
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VSCode.Editor.ref.dll_58A7DE8130CE9FA5.mvfrm",
@@ -15041,24 +15610,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VSCode.Editor.ref.dll_58A7DE8130CE9FA5.mvfrm"
       ],
       "ToBuildDependencies": [
-        161
+        168
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 236
+      "DebugActionIndex": 243
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 982934,
-      "PayloadLength": 8483,
+      "PayloadOffset": 1008359,
+      "PayloadLength": 8899,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 237
+      "DebugActionIndex": 244
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm",
@@ -15081,6 +15650,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VSCode.Editor.ref.dll_58A7DE8130CE9FA5.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_6FDA676131A80EA4.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_9F99EAE9CD20B751.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_6D06F945A98A95D8.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Common.dll_6BBE13EB8E1ED3C1.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_2E9D0C0E3D2E171B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0E0E445C8A8A73DC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_3D5EEB96F5F5A4A5.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DiagnosticsModule.dll_D0682932EA88A5B3.mvfrm",
@@ -15171,13 +15745,11 @@
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm"
       ],
       "ToBuildDependencies": [
+        5,
         7,
         8,
-        9,
         10,
-        11,
         12,
-        13,
         14,
         15,
         16,
@@ -15254,27 +15826,34 @@
         87,
         88,
         89,
-        112,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
         119,
-        168,
-        169,
-        194,
-        195,
+        126,
+        175,
+        176,
+        201,
         202,
-        203,
-        223,
+        209,
+        210,
         230,
-        231,
-        232,
-        233,
-        234,
-        235,
-        236,
-        237
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 238
+      "DebugActionIndex": 245
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
@@ -15289,7 +15868,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 239
+      "DebugActionIndex": 246
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.pdb",
@@ -15304,7 +15883,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 240
+      "DebugActionIndex": 247
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.dll",
@@ -15317,9 +15896,9 @@
         "Library/ScriptAssemblies/UnityEditor.TestRunner.dll"
       ],
       "ToBuildDependencies": [
-        102
+        109
       ],
-      "DebugActionIndex": 241
+      "DebugActionIndex": 248
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.pdb",
@@ -15332,9 +15911,9 @@
         "Library/ScriptAssemblies/UnityEditor.TestRunner.pdb"
       ],
       "ToBuildDependencies": [
-        102
+        109
       ],
-      "DebugActionIndex": 242
+      "DebugActionIndex": 249
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.dll",
@@ -15347,9 +15926,9 @@
         "Library/ScriptAssemblies/Unity.VSCode.Editor.dll"
       ],
       "ToBuildDependencies": [
-        161
+        168
       ],
-      "DebugActionIndex": 243
+      "DebugActionIndex": 250
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.pdb",
@@ -15362,9 +15941,9 @@
         "Library/ScriptAssemblies/Unity.VSCode.Editor.pdb"
       ],
       "ToBuildDependencies": [
-        161
+        168
       ],
-      "DebugActionIndex": 244
+      "DebugActionIndex": 251
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.UI.dll",
@@ -15377,9 +15956,9 @@
         "Library/ScriptAssemblies/UnityEngine.UI.dll"
       ],
       "ToBuildDependencies": [
-        96
+        103
       ],
-      "DebugActionIndex": 245
+      "DebugActionIndex": 252
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb",
@@ -15392,9 +15971,9 @@
         "Library/ScriptAssemblies/UnityEngine.UI.pdb"
       ],
       "ToBuildDependencies": [
-        96
+        103
       ],
-      "DebugActionIndex": 246
+      "DebugActionIndex": 253
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.UI.dll",
@@ -15407,9 +15986,9 @@
         "Library/ScriptAssemblies/UnityEditor.UI.dll"
       ],
       "ToBuildDependencies": [
-        110
+        117
       ],
-      "DebugActionIndex": 247
+      "DebugActionIndex": 254
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.UI.pdb",
@@ -15422,9 +16001,9 @@
         "Library/ScriptAssemblies/UnityEditor.UI.pdb"
       ],
       "ToBuildDependencies": [
-        110
+        117
       ],
-      "DebugActionIndex": 248
+      "DebugActionIndex": 255
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll",
@@ -15437,9 +16016,9 @@
         "Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll"
       ],
       "ToBuildDependencies": [
-        118
+        125
       ],
-      "DebugActionIndex": 249
+      "DebugActionIndex": 256
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.2D.Sprite.Editor.pdb",
@@ -15452,9 +16031,9 @@
         "Library/ScriptAssemblies/Unity.2D.Sprite.Editor.pdb"
       ],
       "ToBuildDependencies": [
-        118
+        125
       ],
-      "DebugActionIndex": 250
+      "DebugActionIndex": 257
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
@@ -15467,9 +16046,9 @@
         "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll"
       ],
       "ToBuildDependencies": [
-        125
+        132
       ],
-      "DebugActionIndex": 251
+      "DebugActionIndex": 258
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.pdb",
@@ -15482,9 +16061,9 @@
         "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.pdb"
       ],
       "ToBuildDependencies": [
-        125
+        132
       ],
-      "DebugActionIndex": 252
+      "DebugActionIndex": 259
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll",
@@ -15497,9 +16076,9 @@
         "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll"
       ],
       "ToBuildDependencies": [
-        131
+        138
       ],
-      "DebugActionIndex": 253
+      "DebugActionIndex": 260
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.pdb",
@@ -15512,9 +16091,9 @@
         "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.pdb"
       ],
       "ToBuildDependencies": [
-        131
+        138
       ],
-      "DebugActionIndex": 254
+      "DebugActionIndex": 261
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
@@ -15527,9 +16106,9 @@
         "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
       ],
       "ToBuildDependencies": [
-        137
+        144
       ],
-      "DebugActionIndex": 255
+      "DebugActionIndex": 262
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb",
@@ -15542,9 +16121,9 @@
         "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb"
       ],
       "ToBuildDependencies": [
-        137
+        144
       ],
-      "DebugActionIndex": 256
+      "DebugActionIndex": 263
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Searcher.Editor.dll",
@@ -15557,9 +16136,9 @@
         "Library/ScriptAssemblies/Unity.Searcher.Editor.dll"
       ],
       "ToBuildDependencies": [
-        143
+        150
       ],
-      "DebugActionIndex": 257
+      "DebugActionIndex": 264
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Searcher.Editor.pdb",
@@ -15572,9 +16151,9 @@
         "Library/ScriptAssemblies/Unity.Searcher.Editor.pdb"
       ],
       "ToBuildDependencies": [
-        143
+        150
       ],
-      "DebugActionIndex": 258
+      "DebugActionIndex": 265
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll",
@@ -15587,9 +16166,9 @@
         "Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll"
       ],
       "ToBuildDependencies": [
-        149
+        156
       ],
-      "DebugActionIndex": 259
+      "DebugActionIndex": 266
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.pdb",
@@ -15602,9 +16181,9 @@
         "Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.pdb"
       ],
       "ToBuildDependencies": [
-        149
+        156
       ],
-      "DebugActionIndex": 260
+      "DebugActionIndex": 267
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.dll",
@@ -15617,9 +16196,9 @@
         "Library/ScriptAssemblies/Unity.Timeline.dll"
       ],
       "ToBuildDependencies": [
-        155
+        162
       ],
-      "DebugActionIndex": 261
+      "DebugActionIndex": 268
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.pdb",
@@ -15632,9 +16211,9 @@
         "Library/ScriptAssemblies/Unity.Timeline.pdb"
       ],
       "ToBuildDependencies": [
-        155
+        162
       ],
-      "DebugActionIndex": 262
+      "DebugActionIndex": 269
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Cinemachine.dll",
@@ -15647,9 +16226,9 @@
         "Library/ScriptAssemblies/Cinemachine.dll"
       ],
       "ToBuildDependencies": [
-        167
+        174
       ],
-      "DebugActionIndex": 263
+      "DebugActionIndex": 270
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Cinemachine.pdb",
@@ -15662,9 +16241,9 @@
         "Library/ScriptAssemblies/Cinemachine.pdb"
       ],
       "ToBuildDependencies": [
-        167
+        174
       ],
-      "DebugActionIndex": 264
+      "DebugActionIndex": 271
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.FilmInternalUtilities.dll",
@@ -15677,9 +16256,9 @@
         "Library/ScriptAssemblies/Unity.FilmInternalUtilities.dll"
       ],
       "ToBuildDependencies": [
-        175
+        182
       ],
-      "DebugActionIndex": 265
+      "DebugActionIndex": 272
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.FilmInternalUtilities.pdb",
@@ -15692,9 +16271,9 @@
         "Library/ScriptAssemblies/Unity.FilmInternalUtilities.pdb"
       ],
       "ToBuildDependencies": [
-        175
+        182
       ],
-      "DebugActionIndex": 266
+      "DebugActionIndex": 273
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll",
@@ -15707,9 +16286,9 @@
         "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll"
       ],
       "ToBuildDependencies": [
-        181
+        188
       ],
-      "DebugActionIndex": 267
+      "DebugActionIndex": 274
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.pdb",
@@ -15722,9 +16301,9 @@
         "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.pdb"
       ],
       "ToBuildDependencies": [
-        181
+        188
       ],
-      "DebugActionIndex": 268
+      "DebugActionIndex": 275
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.dll",
@@ -15737,9 +16316,9 @@
         "Library/ScriptAssemblies/Unity.Timeline.Editor.dll"
       ],
       "ToBuildDependencies": [
-        187
+        194
       ],
-      "DebugActionIndex": 269
+      "DebugActionIndex": 276
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.pdb",
@@ -15752,9 +16331,9 @@
         "Library/ScriptAssemblies/Unity.Timeline.Editor.pdb"
       ],
       "ToBuildDependencies": [
-        187
+        194
       ],
-      "DebugActionIndex": 270
+      "DebugActionIndex": 277
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.FilmInternalUtilities.Editor.dll",
@@ -15767,9 +16346,9 @@
         "Library/ScriptAssemblies/Unity.FilmInternalUtilities.Editor.dll"
       ],
       "ToBuildDependencies": [
-        193
+        200
       ],
-      "DebugActionIndex": 271
+      "DebugActionIndex": 278
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.FilmInternalUtilities.Editor.pdb",
@@ -15782,9 +16361,9 @@
         "Library/ScriptAssemblies/Unity.FilmInternalUtilities.Editor.pdb"
       ],
       "ToBuildDependencies": [
-        193
+        200
       ],
-      "DebugActionIndex": 272
+      "DebugActionIndex": 279
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll",
@@ -15797,9 +16376,9 @@
         "Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll"
       ],
       "ToBuildDependencies": [
-        201
+        208
       ],
-      "DebugActionIndex": 273
+      "DebugActionIndex": 280
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.ShaderGraph.Editor.pdb",
@@ -15812,9 +16391,9 @@
         "Library/ScriptAssemblies/Unity.ShaderGraph.Editor.pdb"
       ],
       "ToBuildDependencies": [
-        201
+        208
       ],
-      "DebugActionIndex": 274
+      "DebugActionIndex": 281
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Toonshader.dll",
@@ -15827,9 +16406,9 @@
         "Library/ScriptAssemblies/Unity.Toonshader.dll"
       ],
       "ToBuildDependencies": [
-        210
+        217
       ],
-      "DebugActionIndex": 275
+      "DebugActionIndex": 282
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Toonshader.pdb",
@@ -15842,9 +16421,9 @@
         "Library/ScriptAssemblies/Unity.Toonshader.pdb"
       ],
       "ToBuildDependencies": [
-        210
+        217
       ],
-      "DebugActionIndex": 276
+      "DebugActionIndex": 283
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/com.unity.cinemachine.editor.dll",
@@ -15857,9 +16436,9 @@
         "Library/ScriptAssemblies/com.unity.cinemachine.editor.dll"
       ],
       "ToBuildDependencies": [
-        216
+        223
       ],
-      "DebugActionIndex": 277
+      "DebugActionIndex": 284
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/com.unity.cinemachine.editor.pdb",
@@ -15872,9 +16451,9 @@
         "Library/ScriptAssemblies/com.unity.cinemachine.editor.pdb"
       ],
       "ToBuildDependencies": [
-        216
+        223
       ],
-      "DebugActionIndex": 278
+      "DebugActionIndex": 285
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Toonshader.Editor.dll",
@@ -15887,9 +16466,9 @@
         "Library/ScriptAssemblies/Unity.Toonshader.Editor.dll"
       ],
       "ToBuildDependencies": [
-        222
+        229
       ],
-      "DebugActionIndex": 279
+      "DebugActionIndex": 286
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Toonshader.Editor.pdb",
@@ -15902,9 +16481,9 @@
         "Library/ScriptAssemblies/Unity.Toonshader.Editor.pdb"
       ],
       "ToBuildDependencies": [
-        222
+        229
       ],
-      "DebugActionIndex": 280
+      "DebugActionIndex": 287
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll",
@@ -15917,9 +16496,9 @@
         "Library/ScriptAssemblies/Assembly-CSharp.dll"
       ],
       "ToBuildDependencies": [
-        229
+        236
       ],
-      "DebugActionIndex": 281
+      "DebugActionIndex": 288
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb",
@@ -15932,9 +16511,9 @@
         "Library/ScriptAssemblies/Assembly-CSharp.pdb"
       ],
       "ToBuildDependencies": [
-        229
+        236
       ],
-      "DebugActionIndex": 282
+      "DebugActionIndex": 289
     },
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
@@ -15959,20 +16538,20 @@
         "Library/BuildPlayerData/Editor/TypeDb-All.json"
       ],
       "ToBuildDependencies": [
-        239,
-        245,
-        251,
-        253,
-        255,
-        261,
-        263,
-        265,
-        275,
-        281
+        246,
+        252,
+        258,
+        260,
+        262,
+        268,
+        270,
+        272,
+        282,
+        288
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 283
+      "DebugActionIndex": 290
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
@@ -15981,10 +16560,10 @@
       "Outputs": [],
       "ToBuildDependencies": [
         6,
-        283
+        290
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 284
+      "DebugActionIndex": 291
     }
   ],
   "FileSignatures": [
@@ -16195,7 +16774,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "ScriptAssemblies": 6,
-          "ScriptAssembliesAndTypeDB": 284
+          "ScriptAssembliesAndTypeDB": 291
         }
 ,  "DefaultNodes": [
     0
