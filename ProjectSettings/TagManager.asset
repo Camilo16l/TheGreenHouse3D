@@ -9,6 +9,8 @@ TagManager:
   - caminable
   - noCaminable
   - NPC
+  - Camera1
+  - capsule
   layers:
   - Default
   - TransparentFX
@@ -21,10 +23,10 @@ TagManager:
   - objeto
   - caminable
   - noCaminable
-  - 
-  - 
-  - 
-  - 
+  - post
+  - characters
+  - props
+  - house
   - 
   - 
   - 

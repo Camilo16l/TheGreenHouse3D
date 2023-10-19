@@ -1,60 +1,42 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 public class movimiento : MonoBehaviour
 {
-    public bool isMoving = false;
-    private  Rigidbody rb;
+    private Rigidbody rb;
     public int velocidad = 5;
-    
+    public bool isMoving = false;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
     }
 
-
     void Update()
     {
-        HandleInput();
+        ManejarEntrada();
     }
 
-    private void HandleInput()
+    private void ManejarEntrada()
     {
+        float movimientoHorizontal = Input.GetAxis("Horizontal");
+        float movimientoVertical = Input.GetAxis("Vertical");
 
-        Vector3 newDirection = Vector3.zero;
+        Vector3 direccion = new Vector3(movimientoHorizontal, 0f, movimientoVertical).normalized;
 
-        if (Input.GetKey(KeyCode.W))
-            {
-                newDirection = Vector3.forward;
-            }
-            else if (Input.GetKey(KeyCode.S))
-            {
-                newDirection = Vector3.back;
-            }
+        if (direccion.magnitude >= 0.1f)
+        {
+            isMoving = true;
+            Quaternion lookRotation = Quaternion.LookRotation(direccion);
+            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 10f);
 
-        if (Input.GetKey(KeyCode.D))
-            {
-                newDirection += Vector3.right;
-            }
-        else if (Input.GetKey(KeyCode.A))
-            {
-                newDirection += Vector3.left;
-            }
-
-        if (newDirection != Vector3.zero)
-            {
-                isMoving = true;
-                transform.forward = newDirection.normalized;
-                rb.velocity = newDirection.normalized * velocidad;
-            }
-
+            // Vector3 movimientoVelocidad = direccion * velocidad * Time.deltaTime;
+            // rb.MovePosition(transform.position + movimientoVelocidad);
+            rb.position += direccion * velocidad * Time.deltaTime;
+        }
         else
-            {
-                isMoving = false;
-                rb.velocity = Vector3.zero;
-            }
-            
-
+        {
+            isMoving = false;
+        }
     }
 }
