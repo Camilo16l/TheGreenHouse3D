@@ -96,8 +96,8 @@
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@15.0.6/Editor/Lighting/CoreLightEditorUtilities.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@15.0.6/Editor/LookDev/DisplayWindow.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@15.0.6/Editor/Lighting/LightUI.Drawers.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@15.0.6/Editor/Lighting/ISerializedLight.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@15.0.6/Editor/Material/MaterialHeaderScopeItem.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@15.0.6/Editor/Lighting/ISerializedLight.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@15.0.6/Editor/Lighting/LightUnit/LightUnitSliderSettings.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@15.0.6/Editor/Lighting/ProbeVolume/ProbeGIBaking.Dilate.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@15.0.6/Editor/Analytics/VolumeProfileOverridesAnalytic.cs" />

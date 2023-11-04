@@ -40,35 +40,27 @@
     <Analyzer Include="/Applications/Unity/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets/Scripts/transition.cs" />
-     <Compile Include="Assets/Scripts/cubeMovement.cs" />
+     <Compile Include="Assets/Scripts/Game Controller/transition.cs" />
      <Compile Include="Assets/Screens/boton.cs" />
-     <Compile Include="Assets/Scripts/player/playerPersonaje.cs" />
-     <Compile Include="Assets/Scripts/stateController.cs" />
-     <Compile Include="Assets/Scripts/nombreObjeto.cs" />
-     <Compile Include="Assets/Scripts/cubeClic.cs" />
-     <Compile Include="Assets/Scripts/cameraFollow.cs" />
-     <Compile Include="Assets/Scripts/sprites.cs" />
-     <Compile Include="Assets/Scripts/llave.cs" />
-     <Compile Include="Assets/Scripts/player/teletransporte.cs" />
-     <Compile Include="Assets/Scripts/posicionPlayer.cs" />
-     <Compile Include="Assets/Scripts/characterSelection.cs" />
-     <Compile Include="Assets/Scripts/inventarioManager.cs" />
+     <Compile Include="Assets/Scripts/Camara/slideSala.cs" />
+     <Compile Include="Assets/Scripts/Camara/slideCamera.cs" />
+     <Compile Include="Assets/Scripts/Camara/sala.cs" />
+     <Compile Include="Assets/Scripts/Player/movimiento.cs" />
+     <Compile Include="Assets/Scripts/Player/teleportTrigger.cs" />
+     <Compile Include="Assets/Scripts/Charater Selection/personaje.cs" />
+     <Compile Include="Assets/Scripts/Game Controller/mouse.cs" />
+     <Compile Include="Assets/Scripts/Charater Selection/personajeSeleccionado.cs" />
+     <Compile Include="Assets/Scripts/Game Controller/stateController.cs" />
+     <Compile Include="Assets/Scripts/Player/playerPersonaje.cs" />
+     <Compile Include="Assets/Scripts/Camara/sliderVertical.cs" />
      <Compile Include="Assets/Resources/Videos/movimientoDeCamara.cs" />
-     <Compile Include="Assets/Scripts/personajeSeleccionado.cs" />
-     <Compile Include="Assets/Scripts/musicController.cs" />
-     <Compile Include="Assets/Scripts/characterController.cs" />
-     <Compile Include="Assets/Scripts/player/teleportTrigger.cs" />
-     <Compile Include="Assets/Scripts/player/movimiento.cs" />
-     <Compile Include="Assets/Scripts/camera.cs" />
-     <Compile Include="Assets/Scripts/clicObject.cs" />
-     <Compile Include="Assets/Scripts/mouse.cs" />
-     <Compile Include="Assets/Scripts/playerMove.cs" />
-     <Compile Include="Assets/Scripts/cameraControl.cs" />
-     <Compile Include="Assets/Scripts/personaje.cs" />
+     <Compile Include="Assets/Scripts/Charater Selection/characterController.cs" />
+     <Compile Include="Assets/Scripts/Camara/sliderHorizontal.cs" />
+     <Compile Include="Assets/Scripts/Camara/cameraTeletransporte.cs" />
+     <Compile Include="Assets/Scripts/Player/teletransporte.cs" />
+     <Compile Include="Assets/Scripts/Camara/destinoCamara.cs" />
+     <Compile Include="Assets/Scripts/Charater Selection/characterSelection.cs" />
      <Compile Include="Assets/Resources/Videos/investigate.cs" />
-     <Compile Include="Assets/Scripts/triggers.cs" />
-     <None Include="Assets/Materiales/Brillo.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

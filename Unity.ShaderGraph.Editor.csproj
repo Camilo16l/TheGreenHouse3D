@@ -40,12 +40,12 @@
     <Analyzer Include="/Applications/Unity/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Graphs/CubemapMaterialSlot.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Generation/Targets/Fullscreen/FullscreenSubTarget.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Drawing/EdgeConnectorListener.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Drawing/Colors/PrecisionColors.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Drawing/ViewModels/ShaderInputViewModel.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/ContextData.cs" />
-     <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Graphs/CubemapMaterialSlot.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Generation/Enumerations/BlendOp.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Graphs/GraphDataReadOnly.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Drawing/Controllers/ShaderInputViewController.cs" />
@@ -109,9 +109,9 @@
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Nodes/Procedural/Shape/RoundedRectangleNode.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Nodes/Math/Range/MaximumNode.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Util/CopyPasteGraph.cs" />
-     <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Util/SpaceTransformUtil.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Interfaces/ICanChangeShaderGUI.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Graphs/ScreenPositionMaterialSlot.cs" />
+     <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Util/SpaceTransformUtil.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Drawing/Inspector/PropertyDrawers/ToggleDataPropertyDrawer.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Drawing/Inspector/PropertyDrawers/CubemapPropertyDrawer.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Nodes/Input/CustomInterpolatorNode.cs" />
@@ -474,8 +474,8 @@
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Nodes/Utility/SubGraphNode.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Drawing/Interfaces/IShaderInputObserver.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Generation/TargetResources/Structs.cs" />
-     <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Nodes/Input/Gradient/BlackbodyNode.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Nodes/Math/Trigonometry/Arctangent2Node.cs" />
+     <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Nodes/Input/Gradient/BlackbodyNode.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Drawing/Blackboard/SGBlackboard.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Nodes/RedirectNode.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Nodes/Input/Texture/CubemapAssetNode.cs" />
@@ -694,10 +694,10 @@
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Implementation/Edge.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Generation/Processors/MatrixNames.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Nodes/Math/Trigonometry/CosineNode.cs" />
+     <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Nodes/Math/Basic/SquareRootNode.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Drawing/Blackboard/SGBlackboardField.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Generation/Enumerations/StructFieldOptions.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Nodes/NormalMapSpace.cs" />
-     <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Nodes/Math/Basic/SquareRootNode.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Data/Nodes/Procedural/CheckerboardNode.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Drawing/Controls/IControlAttribute.cs" />
      <Compile Include="Library/PackageCache/com.unity.shadergraph@15.0.6/Editor/Generation/Attributes/GenerateBlocksAttribute.cs" />

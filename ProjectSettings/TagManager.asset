@@ -11,6 +11,8 @@ TagManager:
   - NPC
   - Camera1
   - capsule
+  - SliderHorizontal
+  - SliderVertical
   layers:
   - Default
   - TransparentFX
