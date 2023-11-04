@@ -4,8 +4,9 @@ using UnityEngine;
 public class movimiento : MonoBehaviour
 {
     private Rigidbody rb;
-    public int velocidad = 5;
+    public int velocidad = 30;
     public bool isMoving = false;
+    public float distanciaMaxima = 1f;
 
     void Start()
     {
@@ -30,8 +31,18 @@ public class movimiento : MonoBehaviour
             Quaternion lookRotation = Quaternion.LookRotation(direccion);
             transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 10f);
 
-            // Vector3 movimientoVelocidad = direccion * velocidad * Time.deltaTime;
-            // rb.MovePosition(transform.position + movimientoVelocidad);
+            // Lanza un rayo hacia adelante para detectar objetos con Mesh Collider
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, transform.forward, out hit, distanciaMaxima))
+            {
+                if (hit.collider != null && !hit.collider.isTrigger)
+                {
+                    // Hay un objeto con Mesh Collider en frente y está a menos de la distancia máxima
+                    isMoving = false;
+                    return;
+                }
+            }
+
             rb.position += direccion * velocidad * Time.deltaTime;
         }
         else

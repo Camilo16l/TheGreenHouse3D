@@ -1,15 +1,6 @@
 MaterialQuality
 Utilities
 MaterialQualityUtilities
-PixelPerfectCamera
-UnityEngine
-Experimental
-Rendering
-Universal
-CinemachineUniversalPixelPerfect
-Light2D
-Light2DBlendStyle
-Renderer2DData
 AssetModificationProcessor
 
 Sysroot
