@@ -362,6 +362,8 @@
 "Assets/Scripts/Charater Selection/personaje.cs"
 "Assets/Scripts/Charater Selection/personajeSeleccionado.cs"
 "Assets/Scripts/Game Controller/mouse.cs"
+"Assets/Scripts/Game Controller/sala1.cs"
+"Assets/Scripts/Game Controller/salaController.cs"
 "Assets/Scripts/Game Controller/stateController.cs"
 "Assets/Scripts/Game Controller/transition.cs"
 "Assets/Scripts/Player/movimiento.cs"
