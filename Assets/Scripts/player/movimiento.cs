@@ -7,6 +7,10 @@ public class movimiento : MonoBehaviour
     public int velocidad = 30;
     public bool isMoving = false;
     public float distanciaMaxima = 1f;
+    public float distanciaAtaque = 3f;
+    public Transform npc;
+    public scriptNPC scriptNPC;
+
 
     void Start()
     {
@@ -15,10 +19,10 @@ public class movimiento : MonoBehaviour
 
     void Update()
     {
-        ManejarEntrada();
+        Movimiento();
     }
 
-    private void ManejarEntrada()
+    private void Movimiento()
     {
         float movimientoHorizontal = Input.GetAxis("Horizontal");
         float movimientoVertical = Input.GetAxis("Vertical");
@@ -31,13 +35,11 @@ public class movimiento : MonoBehaviour
             Quaternion lookRotation = Quaternion.LookRotation(direccion);
             transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 10f);
 
-            // Lanza un rayo hacia adelante para detectar objetos con Mesh Collider
             RaycastHit hit;
             if (Physics.Raycast(transform.position, transform.forward, out hit, distanciaMaxima))
             {
                 if (hit.collider != null && !hit.collider.isTrigger)
                 {
-                    // Hay un objeto con Mesh Collider en frente y está a menos de la distancia máxima
                     isMoving = false;
                     return;
                 }
@@ -49,5 +51,9 @@ public class movimiento : MonoBehaviour
         {
             isMoving = false;
         }
+    }
+    void Ataque()
+    {
+
     }
 }

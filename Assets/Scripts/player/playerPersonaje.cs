@@ -9,6 +9,7 @@ public class playerPersonaje : MonoBehaviour
     public float offset = 0.5f;
     private Animator animator;
     public bool movimiento = false;
+    public bool muerto = false;
     public movimiento moving;
     
     void Start()

@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class personajeSeleccionado : MonoBehaviour
 {
-    public List<GameObject> personajes;
-    public characterController character;
+    // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
+    // Update is called once per frame
     void Update()
     {
         
