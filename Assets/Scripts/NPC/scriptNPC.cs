@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
+
 
 public class scriptNPC : MonoBehaviour
 {  
@@ -11,7 +13,7 @@ public class scriptNPC : MonoBehaviour
     public screenShake screenShake;
     public float distanciaAtaque = 3f;
     public GameObject player;
-    // public bool isMoving = false;
+    public walk WalkScript;
     public Transform[] waypoints;
     public float velocidadMovimiento;
     public LayerMask ignoreLayer;
@@ -20,29 +22,19 @@ public class scriptNPC : MonoBehaviour
         myCollider = GetComponent<Collider>();
 
         muerto = false;
-        asesino = (Random.value > 0.5f);
+        // asesino = (Random.value > 0.5f);
+        asesino = true;
 
         int randomIndex = Random.Range(0, waypoints.Length);
         transform.position = new Vector3(waypoints[randomIndex].position.x, 7.5f, waypoints[randomIndex].position.z);
-
-        Debug.Log("¿Es asesino? " + asesino);
     }
 
     void Update()
     {
-        if (!muerto)
-        {
-            Movimiento();
-        }
-
         if (Input.GetMouseButtonDown(0))
         {
             VerificarAtaque();
         }
-    }
-    void Movimiento()
-    {
-
     }
 
     void Normal()
@@ -73,8 +65,10 @@ public class scriptNPC : MonoBehaviour
     {
         muerto = true;
 
-            myCollider.enabled = false;
+        myCollider.enabled = false;
 
         StartCoroutine(screenShake.Shake(0.1f, 2.5f));
+
+        WalkScript.enabled = false;
     }
 }

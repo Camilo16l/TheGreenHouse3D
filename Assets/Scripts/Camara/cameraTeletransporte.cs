@@ -7,6 +7,8 @@ public class cameraTeletransporte : MonoBehaviour
     public destinoCamara.destinos destination;
     public Camera camara;
 
+#if UNITY_EDITOR
+    [System.Diagnostics.Conditional("UNITY_EDITOR")]
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player")) // Verifica si el objeto es la cámara
@@ -17,4 +19,5 @@ public class cameraTeletransporte : MonoBehaviour
             camara.transform.position = teleportPosition;
         }
     }
+#endif
 }

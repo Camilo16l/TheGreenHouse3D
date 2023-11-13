@@ -8,9 +8,11 @@ public class personajeNPC : MonoBehaviour
     public Transform NpcObj;
     public GameObject[] personajes;
     private GameObject personajeSeleccionado;
-    // public bool movimiento;
+    
     public bool muerto;
     public scriptNPC scriptNPC;
+    public walk WalkScript;
+    public bool movimiento = false;
     private Animator animator;
 
     void Start()
@@ -27,11 +29,20 @@ public class personajeNPC : MonoBehaviour
         if (personajeSeleccionado != null)
         {
             personajeSeleccionado.transform.position = new Vector3(NpcObj.position.x, 1f, NpcObj.position.z);
+
+            if (!WalkScript.Rotating)
+                {
+                    personajeSeleccionado.transform.rotation = NpcObj.rotation;
+                }
         }
         
         muerto = scriptNPC.muerto;
 
         animator.SetBool("muerto", muerto);
+
+        movimiento = WalkScript.walking;
+
+        animator.SetBool("movimiento", movimiento);
     }
 
     void PersonajeAleatorio()
