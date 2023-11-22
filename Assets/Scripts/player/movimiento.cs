@@ -10,6 +10,7 @@ public class movimiento : MonoBehaviour
     public float distanciaAtaque = 3f;
     public Transform npc;
     public scriptNPC scriptNPC;
+    public float salud = 15f;
 
 
     void Start()

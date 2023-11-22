@@ -10,6 +10,7 @@ public class walk : MonoBehaviour
     public bool Rotating;
     public int RotateDir;
     public float MaxX, MinX, MaxZ, MinZ;
+
     void Start()
     {
         WalkingTime = Random.Range(5, 8);
@@ -55,9 +56,21 @@ public class walk : MonoBehaviour
         }
         if (Rotating == false)
         {
-            // Anim.Play("Walk");
             WalkingTime -= Time.deltaTime;
-            transform.Translate(Vector3.forward * Speed * Time.deltaTime);
+            RaycastHit hit;
+            if (!Physics.Raycast(transform.position, transform.forward, out hit, Speed * Time.deltaTime))
+            {
+                transform.Translate(Vector3.forward * Speed * Time.deltaTime);
+            }
+
+            else
+                {
+                    if (hit.collider.CompareTag("obstacle"))
+                    {
+                        // Gira en la dirección opuesta
+                        transform.Rotate(0, 180, 0);
+                    }
+                }
             if (WalkingTime <= 0)
             {
                 RotateDir = Random.Range(1, 3);

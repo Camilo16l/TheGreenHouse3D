@@ -1,32 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
-
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class scriptNPC : MonoBehaviour
 {  
     private Collider myCollider;
-    public bool asesino;
     public stateController atacando;
     public bool muerto = false;
     public screenShake screenShake;
     public float distanciaAtaque = 3f;
     public GameObject player;
     public walk WalkScript;
-    public Transform[] waypoints;
+    public Transform[] spawnpoints;
     public float velocidadMovimiento;
     public LayerMask ignoreLayer;
+    public bool win;
+    public string nombreDeLaEscena;
+    public float salud;
+    public float cooldown = .8f;
+    private float lastAttack;
     void Start()
     {
         myCollider = GetComponent<Collider>();
 
         muerto = false;
-        // asesino = (Random.value > 0.5f);
-        asesino = true;
-
-        int randomIndex = Random.Range(0, waypoints.Length);
-        transform.position = new Vector3(waypoints[randomIndex].position.x, 7.5f, waypoints[randomIndex].position.z);
+        win = false;
+        int randomIndex = Random.Range(0, spawnpoints.Length);
+        transform.position = new Vector3(spawnpoints[randomIndex].position.x, 7.5f, spawnpoints[randomIndex].position.z);
+        
     }
 
     void Update()
@@ -35,11 +38,11 @@ public class scriptNPC : MonoBehaviour
         {
             VerificarAtaque();
         }
-    }
 
-    void Normal()
-    {
-
+        if(win)
+        {
+            CambiaEscena();
+        }
     }
     void Asesino()
     {
@@ -47,6 +50,11 @@ public class scriptNPC : MonoBehaviour
     }
     public void VerificarAtaque()
     {
+        if (Time.time - lastAttack < cooldown)
+        {
+            return;
+        }
+
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         
@@ -56,19 +64,39 @@ public class scriptNPC : MonoBehaviour
             {
                 if(atacando.atacando && Vector3.Distance(transform.position, player.transform.position) <= distanciaAtaque)
                 {
-                    Muerte();
+                    lastAttack = Time.time;
+                    StartCoroutine(screenShake.Shake(0.1f, 2.5f));
+                    Herir();
                 }
             }
         }
     }
+
+    public void Herir()
+    {
+        salud--;
+        if(salud<=0){
+            Muerte();
+        }
+    }
+
     public void Muerte()
     {
         muerto = true;
 
         myCollider.enabled = false;
 
-        StartCoroutine(screenShake.Shake(0.1f, 2.5f));
-
         WalkScript.enabled = false;
+    }
+
+    IEnumerator ActivarWin(float espera)
+    {
+        yield return new WaitForSeconds(espera);
+        win = true;
+    }
+
+    public void CambiaEscena()
+    {
+        SceneManager.LoadScene(nombreDeLaEscena);
     }
 }
