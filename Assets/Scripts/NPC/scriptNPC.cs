@@ -21,10 +21,11 @@ public class scriptNPC : MonoBehaviour
     public float salud;
     public float cooldown = .8f;
     private float lastAttack;
+    private AudioSource audioSource;
     void Start()
     {
         myCollider = GetComponent<Collider>();
-
+        audioSource = GetComponent<AudioSource>();
         muerto = false;
         win = false;
         int randomIndex = Random.Range(0, spawnpoints.Length);
@@ -43,10 +44,6 @@ public class scriptNPC : MonoBehaviour
         {
             CambiaEscena();
         }
-    }
-    void Asesino()
-    {
-
     }
     public void VerificarAtaque()
     {
@@ -83,10 +80,11 @@ public class scriptNPC : MonoBehaviour
     public void Muerte()
     {
         muerto = true;
+        audioSource.Play();
 
         myCollider.enabled = false;
 
-        WalkScript.enabled = false;
+        // WalkScript.enabled = false;
     }
 
     IEnumerator ActivarWin(float espera)

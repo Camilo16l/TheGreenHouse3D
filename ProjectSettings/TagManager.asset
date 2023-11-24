@@ -16,6 +16,15 @@ TagManager:
   - obstacle
   - enemy
   - player
+  - pastel
+  - cuchillo
+  - pistola
+  - botiquin
+  - llaveAzul
+  - llaveVerde
+  - llaveFinal
+  - mapa
+  - espada
   layers:
   - Default
   - TransparentFX
@@ -35,7 +44,7 @@ TagManager:
   - triggers
   - paredes
   - navMesh
-  - 
+  - item
   - 
   - 
   - 

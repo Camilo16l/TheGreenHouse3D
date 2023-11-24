@@ -11,10 +11,15 @@ public class movimiento : MonoBehaviour
     public Transform npc;
     public scriptNPC scriptNPC;
     public float salud = 15f;
+    public AudioClip sonidoChoque;
+    private AudioSource audioSource;
+    private float tiempoEspera = 0.5f;
+    private float tiempoUltimaReproduccion = 0f;
 
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody>();
     }
 
@@ -42,6 +47,7 @@ public class movimiento : MonoBehaviour
                 if (hit.collider != null && !hit.collider.isTrigger)
                 {
                     isMoving = false;
+                    ReproducirSonido();
                     return;
                 }
             }
@@ -52,9 +58,18 @@ public class movimiento : MonoBehaviour
         {
             isMoving = false;
         }
+        
     }
-    void Ataque()
+    void ReproducirSonido()
     {
+        if (Time.time - tiempoUltimaReproduccion >= tiempoEspera)
+        {
+            if (audioSource != null && sonidoChoque != null)
+            {
+                audioSource.PlayOneShot(sonidoChoque);
+                tiempoUltimaReproduccion = Time.time;
+            }
+        }
 
     }
 }
