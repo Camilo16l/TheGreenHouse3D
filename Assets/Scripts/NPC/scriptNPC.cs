@@ -63,15 +63,15 @@ public class scriptNPC : MonoBehaviour
                 {
                     lastAttack = Time.time;
                     StartCoroutine(screenShake.Shake(0.1f, 2.5f));
-                    Herir();
+                    Herir(1);
                 }
             }
         }
     }
 
-    public void Herir()
+    public void Herir(int puntos)
     {
-        salud--;
+        salud -= puntos;
         if(salud<=0){
             Muerte();
         }
@@ -84,7 +84,7 @@ public class scriptNPC : MonoBehaviour
 
         myCollider.enabled = false;
 
-        // WalkScript.enabled = false;
+        WalkScript.enabled = false;
     }
 
     IEnumerator ActivarWin(float espera)

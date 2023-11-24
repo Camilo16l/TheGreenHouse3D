@@ -15,12 +15,14 @@ public class movimiento : MonoBehaviour
     private AudioSource audioSource;
     private float tiempoEspera = 0.5f;
     private float tiempoUltimaReproduccion = 0f;
+    public bool muerto;
 
 
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody>();
+        muerto = false;
     }
 
     void Update()

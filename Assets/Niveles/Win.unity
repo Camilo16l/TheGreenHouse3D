@@ -554,7 +554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5182d25dfebb46e9aae395262d8c345, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreDeLaEscena: Character
+  nombreDeLaEscena: House
 --- !u!1 &905228637
 GameObject:
   m_ObjectHideFlags: 0

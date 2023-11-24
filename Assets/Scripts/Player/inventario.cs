@@ -27,6 +27,10 @@ public class inventario : MonoBehaviour
     [Header("Audio")]
     private AudioSource audioSource;
     private bool soundPlayed = false;
+    [Header("keys")]
+    public bool usedBlueKey;
+    public bool usedGreenKey;
+    public bool usedFinalKey;
 
     void Start()
     {
@@ -40,6 +44,9 @@ public class inventario : MonoBehaviour
         SetItemIconAlpha(llaveAzulIcon, llaveAzul ? 1f : 0f);
         SetItemIconAlpha(llaveVerdeIcon, llaveVerde ? 1f : 0f);
         SetItemIconAlpha(llaveFinalIcon, llaveFinal ? 1f : 0f);
+        usedBlueKey = false;
+        usedGreenKey = false;
+        usedFinalKey = false;
     }
 
     void Update()
@@ -68,6 +75,5 @@ public class inventario : MonoBehaviour
     void PlaySound()
     {
         audioSource.Play();
-        // soundPlayed = true;
     }
 }

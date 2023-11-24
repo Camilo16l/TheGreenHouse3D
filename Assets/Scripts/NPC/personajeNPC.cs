@@ -11,7 +11,7 @@ public class personajeNPC : MonoBehaviour
     
     public bool muerto;
     public scriptNPC scriptNPC;
-    // public walk WalkScript;
+    public walk WalkScript;
     public bool movimiento = false;
     private Animator animator;
 
@@ -30,17 +30,17 @@ public class personajeNPC : MonoBehaviour
         {
             personajeSeleccionado.transform.position = new Vector3(NpcObj.position.x, 1f, NpcObj.position.z);
 
-            // if (!WalkScript.Rotating)
-            //     {
-            //         personajeSeleccionado.transform.rotation = NpcObj.rotation;
-            //     }
+            if (!WalkScript.Rotating)
+                {
+                    personajeSeleccionado.transform.rotation = NpcObj.rotation;
+                }
         }
         
         muerto = scriptNPC.muerto;
 
         animator.SetBool("muerto", muerto);
 
-        // movimiento = WalkScript.walking;
+        movimiento = WalkScript.walking;
 
         animator.SetBool("movimiento", movimiento);
     }

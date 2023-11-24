@@ -19,7 +19,6 @@ public class playerHealth : MonoBehaviour
         vidaMaxima = salud.salud;
         porcentaje = Mathf.Clamp(vidaMaxima / vidaActual, 0f, 1f);
         bar.fillAmount = porcentaje;
-        Debug.Log("Vida Actual: " + vidaActual + ", Porcentaje: " + porcentaje);
     }
     void Seguir()
     {
